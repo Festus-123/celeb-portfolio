@@ -3,10 +3,10 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Portfolio = () => {
     return (
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-10">
+        <section data-theme="light" className=" grid grid-cols-1 md:grid-cols-2 gap-10">
 
             {/* Huge portfolio text */}
-            <h1 className="col-span-1 md:col-span-2 font-extrabold text-primary text-[5em] md:text-[10em] lg:text-[15em] text-center tracking-tighter w-full ">
+            <h1 className="col-span-1 md:col-span-2 font-extrabold text-primary text-[5em] md:text-[9em] lg:text-[15em] text-center tracking-tighter w-full ">
                 PORTFOLIO
             </h1>
 
@@ -42,11 +42,11 @@ const Portfolio = () => {
                         alt="flower image"
                         width={400}
                         height={400}
-                        className="md:w-[60%] h-60"/>
+                        className="w-[60%] md:w-[60%] h-60"/>
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

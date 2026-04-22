@@ -1,6 +1,8 @@
 import Portfolio from "../pages/Portfolio";
 import CallTo from "../pages/CallTo";
 import SelectedWorks from "../pages/SelectedWorks";
+import Awards from "../pages/Awards";
+import Landscape from "../pages/Landscape";
 const page = () => {
 
   return (
@@ -8,6 +10,8 @@ const page = () => {
       <Portfolio />
       <CallTo />
       <SelectedWorks />
+      <Awards />
+      <Landscape />
     </div>
   );
 }
