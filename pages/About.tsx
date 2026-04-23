@@ -11,26 +11,26 @@ const About = () => {
   return (
     <section data-theme="dark" className="bg-primary text-text mt-40">
       {/* Anout me text huge with arrow to resume */}
-      <div className="flex items-end gap-20 justify-center p-medium">
-        <h1 className="uppercase text-[4em] md:text-[7em] lg:text-[10em] font-extrabold">
+      <div className="flex items-end gap-5 md:gap-20 justify-center p-4 md:p-medium mt-5">
+        <h1 className="uppercase text-[3em] md:text-[5em] lg:text-[9em] xl:text-[11em] font-extrabold">
           About Me
         </h1>
-        <div className="text-6xl scale-y-[-1]">
+        <div className="text-4xl md:text-6xl scale-y-[-1]">
           <FiArrowUpRight />
         </div>
       </div>
 
       {/*Image of photgrapher and description */}
-      <div className="flex flex-col md:flex-row justify-center mt-20">
+      <div className="flex flex-col-reverse md:flex-row justify-center mt-20">
         {/* text section */}
         <div className="flex flex-col gap-10 items-center w-full md:w-[50%]">
-          <p className="text-lg md:text-xl font-light w-full md:w-[80%]">
+          <p className="md:text-lg lg:text-xl font-light w-full md:w-[80%] p-4 md:p-0">
             I am DeMInT a skilled Photographer with an eye for capturing every
             memorial and aesthetic moments and the skill of creating diamonds
             from the rough basically a magic touch to every moment that needs
             capturing
           </p>
-          <div className="grid grid-cols-2 gap-20">
+          <div className="grid grid-cols-2 gap-10 w-full p-4 md:p-medium mt-4">
             { items.map((item, index) => (
                 <div
                     key={index} 
@@ -48,7 +48,7 @@ const About = () => {
         </div>
 
         {/* Image section */}
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
           <Image
             src="/award4.png"
             alt="Photographer image"
