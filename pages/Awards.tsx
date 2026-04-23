@@ -35,10 +35,10 @@ const Awards = () => {
   ];
   return (
     <section data-theme="dark" className="bg-primary text-text mt-20">
-      <h1 className="text-[2em] md:text-[6em] lg:text-[10em] text-center font-extrabold mt-20">
+      <h1 className="text-[4em] md:text-[6em] lg:text-[10em] text-center font-extrabold ">
         AWARDS
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 mt-10">
         {awards.map((item, index) => (
           <div key={index}>
             <AwardsCard src={item.src} alt={item.alt} text={item.text} date={item.date} />

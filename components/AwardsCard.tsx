@@ -9,7 +9,7 @@ const AwardsCard = ({ text, date, src, alt }: { text: string, date: string, src:
                 alt={alt}
                 width={600}
                 height={800}
-                className="h-120 "/>
+                className="h-130 md:h-140 "/>
 
                 <div className="absolute inset-0 bg-black/40" />
 

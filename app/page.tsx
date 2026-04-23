@@ -3,6 +3,10 @@ import CallTo from "../pages/CallTo";
 import SelectedWorks from "../pages/SelectedWorks";
 import Awards from "../pages/Awards";
 import Landscape from "../pages/Landscape";
+import Event from "../pages/Event";
+import Fashion from "../pages/Fashion";
+import Portrait from "../pages/Portrait";
+import Experiences from "../pages/Experiences";
 const page = () => {
 
   return (
@@ -12,6 +16,10 @@ const page = () => {
       <SelectedWorks />
       <Awards />
       <Landscape />
+      <Event />
+      <Fashion />
+      <Portrait />
+      <Experiences />
     </div>
   );
 }

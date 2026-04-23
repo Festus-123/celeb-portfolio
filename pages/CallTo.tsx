@@ -21,9 +21,9 @@ const CallTo = () => {
       </h1>
 
       {/* stacked items  at the bottom of the page */}
-      <div className="absolute bottom-0 w-full text-xs md:text-sm  font-light flex items-center justify-between p-medium">
+      <div className="absolute bottom-0 w-full text-xs md:text-sm  font-light flex items-center justify-between p-medium gap-20 md:gap-5">
         <p>DeMInT Photo Ops</p>
-        <a href="t.wa">hhtps://DeMInTphotos.com</a>
+        <a href="t.wa" className="hidden md:block">hhtps://DeMInTphotos.com</a>
         <a href="">insta: DeMInTphoto22</a>
       </div>
     </section>
