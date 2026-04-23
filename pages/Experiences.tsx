@@ -32,7 +32,7 @@ const Experiences = () => {
             className="p-medium flex flex-col bg-neutral text-primary mt-20">
 
                 {/* eperience text bold and huge */}
-                <h1 className="uppercase text-[4em] md:text-[9em] lg:text-[12em] font-extrabold">
+                <h1 className="uppercase text-[1.5em] md:text-[7em] lg:text-[10em] xl:text-[12em] font-extrabold">
                     Experiences
                 </h1>
 
@@ -41,12 +41,12 @@ const Experiences = () => {
                     { experiences.map((item, index) => (
                         <div
                             key={index}
-                            className="text-black flex flex-row gap-5 md:gap-10 items-start border-b p-medium">
+                            className="text-black flex flex-row gap-5 md:gap-10 items-start border-b p-4 md:p-medium">
                                 <div className="text-6xl text-primary scale-y-[-1]">
                                     <FiArrowUpRight />
                                 </div>
-                                <div className="flex flex-col md:flex-row items-start  gap-5 md:gap-20">
-                                    <div className="flex flex-col gap-2 ">
+                                <div className="flex flex-col md:flex-row items-start gap-5 md:gap-20">
+                                    <div className="flex flex-col gap-1">
                                         <h1 className="text-xl md:text-2xl font-bold">{item.title}</h1>
                                         <p className="text-sm font-light">{item.ref}</p>
                                     </div>

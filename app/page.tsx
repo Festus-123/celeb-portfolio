@@ -7,11 +7,14 @@ import Event from "../pages/Event";
 import Fashion from "../pages/Fashion";
 import Portrait from "../pages/Portrait";
 import Experiences from "../pages/Experiences";
+import About from "../pages/About";
 const page = () => {
 
   return (
     <div className="w-full h-full bg-neutral text-text">
       <Portfolio />
+      <About />
+      <Experiences />
       <CallTo />
       <SelectedWorks />
       <Awards />
@@ -19,7 +22,6 @@ const page = () => {
       <Event />
       <Fashion />
       <Portrait />
-      <Experiences />
     </div>
   );
 }

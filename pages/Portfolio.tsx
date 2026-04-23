@@ -6,7 +6,7 @@ const Portfolio = () => {
         <section data-theme="light" className=" grid grid-cols-1 md:grid-cols-2 gap-10">
 
             {/* Huge portfolio text */}
-            <h1 className="col-span-1 md:col-span-2 font-extrabold text-primary text-[5em] md:text-[9em] lg:text-[12em] xl:text-[15em] text-center tracking-tighter w-full mt-20">
+            <h1 className="col-span-1 md:col-span-2 font-extrabold text-primary text-[5em] md:text-[9em] lg:text-[12em] xl:text-[15em] text-center tracking-tighter w-full mt-40 md:mt-30 lg:mt-20"> 
                 PORTFOLIO
             </h1>
 

@@ -10,7 +10,7 @@ const Event = () => {
           <h1 className="text-[3em] md:text-[4em] font-extrabold tracking-tight md:leading-12">
             EVENT PHOTOGRAPHY
           </h1>
-          <p className="text-sm md:text-lg lg:text-xl font-light">
+          <p className="md:text-lg lg:text-xl font-light">
             Every captured moment of the event feels like it is being relived.
             the joy, fun, enomous feeling of freedom all captured in the moment
             by the lens of an expert
@@ -20,8 +20,8 @@ const Event = () => {
         {/* Large spanned image */}
         <div className="md:col-span-2">
           <Image
-            src=""
-            alt=""
+            src="/landscape-photo.png"
+            alt="Main Event Image"
             width={800}
             height={400}
             className="object-cover object-center w-full"
@@ -31,31 +31,31 @@ const Event = () => {
         {/* Normal event images */}
         <div className="">
           <Image
-            src=""
-            alt=""
+            src="/Eun-woo.png"
+            alt="Other event"
             width={500}
             height={400}
-            className="object-cover object-ccnter "
+            className="object-cover object-ccnter h-100"
           />
         </div>
 
         <div className="">
           <Image
-            src=""
-            alt=""
+            src="/flower-view.png"
+            alt="Other event"
             width={500}
             height={400}
-            className="object-cover object-center "
+            className="object-cover object-center h-100"
           />
         </div>
 
-        <div className="">
+        <div className="hidden md:block">
           <Image
-            src=""
-            alt=""
+            src="/nilter.png"
+            alt="other event"
             width={500}
             height={400}
-            className="object-cover object-center "
+            className="object-cover object-center h-100"
           />
         </div>
       </div>

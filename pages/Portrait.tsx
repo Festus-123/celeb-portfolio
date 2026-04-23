@@ -27,11 +27,11 @@ const Portrait = () => {
 
                 {/* Portrait series text */}
                 <div className="flex flex-col md:flex-row justify-between w-full p-medium">
-                    <h1 className="text-[3em] md:text-[5em] lg:text-[7em] font-extrabold uppercase tracking-tight leading-22">
+                    <h1 className="text-[4em] md:text-[5em] lg:text-[7em] font-extrabold uppercase tracking-tight leading-15 md:leading-22">
                         Portrait <br /> Series
                     </h1>
 
-                    <p className="text-sm md:text-lg lg:text-xl font-light w-[40%]">
+                    <p className="md:text-lg lg:text-xl font-light w-full md:w-[40%]">
                         Portraits tends to bring the light into the viewers perspective, not just bring calm but shifts moods lighting up the expression of every captivating moments
                     </p>
                 </div>

@@ -29,7 +29,7 @@ const SelectedWorks = () => {
       700: 2
     }
   return (
-    <section data-theme="dark" className="bg-neutral relative mt-20">
+    <section data-theme="dark" className="bg-neutral relative mt-20 h-[180vh] lg:h-[170vh] overflow-y-hidden">
       {/* <div className="absolute inset-0 bg-black/20 w-full h-full" /> */}
       <h1 className="absolute top-1/4 text-[3em] md:text-[7em] lg:text-[10em] w-full p-large uppercase font-extrabold text-center text-text leading-tight text-shadow-lg drop-shadow-2xl z-10">
         Selected <br /> works
