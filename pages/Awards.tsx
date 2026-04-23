@@ -27,7 +27,7 @@ const Awards = () => {
       date: "26-09-2014",
     },
     {
-        src: "/award4.png",
+        src: "/fashion4.png",
         alt: "Akaila-Souza",
       text: "mira de mistra and art piecer",
       date: "12-12-2021",

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Portrait = () => {
     const images = [
-        "/Eun-woo.png",
-        "/black-pop-boy.png",
+        "/portrait1.png",
+        "/portrait2.png",
         "/korean-model2.png",
     ]
     return (
@@ -26,7 +26,7 @@ const Portrait = () => {
                 </div>
 
                 {/* Portrait series text */}
-                <div className="flex flex-col md:flex-row justify-between w-full p-medium">
+                <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-0 w-full p-medium">
                     <h1 className="text-[4em] md:text-[5em] lg:text-[7em] font-extrabold uppercase tracking-tight leading-15 md:leading-22">
                         Portrait <br /> Series
                     </h1>

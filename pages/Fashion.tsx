@@ -4,7 +4,7 @@ import Masonry from "react-masonry-css";
 import Image from "next/image";
 
 const Fashion = () => {
-  const images = ["/Akaila-Souza.png", "/jullian.png", "/Eun-woo.png", "/bunner-stumn.png",  "/jullian.png", "/beauty-woman.png" ];
+  const images = ["/Akaila-Souza.png", "/jullian.png", "/Eun-woo.png", "/bunner-stumn.png",  "/fashion4.png", "/fashion.png" ];
   const breakpointColumnObj = {
     default: 3,
     1100: 2,
