@@ -15,14 +15,14 @@ const Experiences = () => {
             description: "Lead the secretariat media at the dominican republic hall of fame, took over 500 pictures and mae out over 1400 selected works"
         },
         {
-            title: "Secretariat Leadership role",
-            ref: "Dominical republic",
-            description: "Lead the secretariat media at the dominican republic hall of fame, took over 500 pictures and mae out over 1400 selected works"
+            title: "Bahamars Phot cart Internship",
+            ref: "United Nations",
+            description: "Internship at the U.S at the Bahamars Gala retaining over 400 shoots for several customers, gained tactical experience on Client discussion and negotiations"
         },
         {
-            title: "Secretariat Leadership role",
-            ref: "Dominical republic",
-            description: "Lead the secretariat media at the dominican republic hall of fame, took over 500 pictures and mae out over 1400 selected works"
+            title: "The IBM Award Contest",
+            ref: "IBM Headquaters",
+            description: "Lead the IBM award show media, brought over 5000 more viewers after several engagement with their social media platform, extending their visibility via media."
         },
 
     ]
